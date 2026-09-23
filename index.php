@@ -3,7 +3,7 @@ session_start();
 
 if (!isset($_SESSION['users'])) {
     $_SESSION['users'] = [
-        ['id' => 1, 'first_name' => ''Quenie Joy 'last_name' => 'Bagacay'],
+        ['id' => 1, 'first_name' => '', 'last_name' => ''],
         ['id' => 2, 'first_name' => 'Rene', 'last_name' => 'Baterbonia'],
         ['id' => 3, 'first_name' => 'Janice', 'last_name' => 'Algapide'],
     ];
